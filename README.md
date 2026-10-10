@@ -1,5 +1,5 @@
 # Datasets
-This is a complication of (mostly) publicly-available datasets that can be useful to students, professors, and others for microeconomic and other research, data visualization, etc. No guarantees on accuracy, but I hope it's helpful! If you have any changes, additions, or comments, please let me know.
+This is a complication of datasets that can be useful to students, professors, and others for microeconomic and other research, data visualization, etc. Most of the datasets are publicly available, but some aren't and require data agreements. No guarantees on accuracy, but I hope it's helpful! If you have any changes, additions, or comments, please let me know.
  \- [Todd Jones](https://www.toddrjones.com/)
 
 <!-- 
@@ -12,54 +12,45 @@ This is a complication of (mostly) publicly-available datasets that can be usefu
 </details> 
 -->
 
-## Contents
+### Contents
 
-- [Time use](#time-use)
-- [Names](#names)
-- [Crime](#crime)
-- [Family](#family)
-- [Injury and death](#injury-and-death)
-- [Crashes and traffic](#crashes-and-traffic)
-- [Sports](#sports)
-- [Education](#education)
-- [Macroeconomics data](#macroeconomics-data)
-- [Politics/voting](#politicsvoting)
-- [Health](#health)
-- [Public Health](#public-health)
-- [Temperature](#temperature)
-- [Census and Genealogy](#census-and-genealogy)
-- [Real estate](#real-estate)
-- [Labor and working](#labor-and-working)
+Skip to: [Time use](#time-use), [Names](#names), [Crime](#crime), [Family](#family), [Injury and death](#injury-and-death), [Crashes and traffic](#crashes-and-traffic), [Sports](#sports), [Education](#education), [Inflation data](#inflation-data), [Health](#health), [Temperature](#temperature), [Census and Genealogy](#census-and-genealogy), [Real estate](#real-estate), [Labor and working](#labor-and-working)
 
 ---
 
 ### Time Use
 
 - [American Time Use Survey](https://www.bls.gov/tus/) - 24-hour US time diaries
-  - Years: 2003-present; Access: Public; Also an IPUMS [version](https://www.atusdata.org/atus/)
+  - Years: 2003-present; Access: Public; There is also an IPUMS [version](https://www.atusdata.org/atus/)
   - Sample paper: [Parental and Student Time Use Around the Academic Year](https://www.sciencedirect.com/science/article/pii/S0167268124001598)
-- MTUS 
-    
+- [Multinational Time Use Study](https://www.mtusdata.org/mtus/) - Time diaries from a number of countries
+  - Years: varies. Access: Requires IPUMS data agreement.
+ 
 ---
 
 ### Names
 
-- [SSA baby names](https://www.ssa.gov/oact/babynames/index.html) – Baby names for the US 
+- [US baby names](https://www.ssa.gov/oact/babynames/index.html) – Baby names from the Social Security Administration
   - Years: 1880–present; Access: Public
   - Data presented separately by male and female and by state. Minimum 5 names.
+  - Fun [article](https://nameberry.com/blog/most-popular-names-how-the-list-was-born) about the origins of these data.
+- [England and Wales names](https://www.ons.gov.uk/releases/babynamesinenglandandwales2025#data) - Baby names from the Office of National Statistics
+  - Years: 1996-present
+  - Minimum 3 names.
+- [US Census names](https://www.census.gov/topics/population/genealogy/data.html) - Most commonly-occurring first and last names in the US
+  - Years: 1990, 2000, 2010, 2020. Access: Public
 - [Facebook Name List](https://web.archive.org/web/20220119175817/http://sites.google.com/site/facebooknamelist/namelist) - How often names are male and female
   - Access: Public
-- England and Wales
-- Most common first and last names
 
 ---
 
 ### Crime
 
-- NIBRS
-  - Geo crosswalk
-- UCR
-- NCVS
+- [National Incident-based Reporting System (NIBRS)](https://www.icpsr.umich.edu/sites/icpsr/view/studies/118281/versions/V11)
+  - Years: 1991-present. This version was standardized and compiled by Jacob Kaplan.
+  - [Useful crosswalk to get more information about the police agencies](https://www.icpsr.umich.edu/web/ICPSR/studies/35158/versions/V2)
+- [National Crime Victimization Survey (NCVS)](https://www.icpsr.umich.edu/sites/nacjd/view/collections/95)
+  - Years: 1992-present. This version is from ICPSR.
 - City-level crime data
 - 911 calls
 
@@ -120,7 +111,7 @@ This is a complication of (mostly) publicly-available datasets that can be usefu
 
 ---
 
-### Macroeconomics data
+### Inflation data
 
 - CPI
 
@@ -170,4 +161,4 @@ This is a complication of (mostly) publicly-available datasets that can be usefu
 
 
 
-  
+  Disclaimer: This site may contain errors. In no event will we be liable for any loss or damage.
