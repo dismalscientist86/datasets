@@ -1,16 +1,6 @@
 # Datasets
-This is a complication of datasets that I hope can be useful to students, professors, and others for research, data visualization, etc. I am an applied microeconomist, and this is reflected in what is included below. Most of the datasets are publicly available, but some aren't and require data agreements. If you have any changes, additions, or comments, please let me know.
+This is a complication of datasets that I hope can be useful to students, professors, and others for research, data visualization, etc. I am an applied microeconomist, and this is reflected in what is included below. All or at least the vast majority of the datasets are free. But while most are publicly available, some aren't and require data agreements. If you have any changes, additions, or comments, please let me know.
  \- [Todd Jones](https://www.toddrjones.com/)
-
-<!-- 
-<details>
-<summary>Details</summary>
-
-- [Link](https://www.bls.gov/tus/)
-
-
-</details> 
--->
 
 ### Contents
 
@@ -71,7 +61,7 @@ Skip to: [Time use](#time-use), [Names](#names), [Crime](#crime), [Family](#fami
 
 ---
 
-### Household Surveys 
+### Household Surveys
 
 - [American Community Survey (ACS)](https://usa.ipums.org/usa/) - Like a more-detailed version of the US Census, but only a sample of the population participates
   - Repeated cross-section. You can access it, e.g., via IPUMS (above link) or the [tidycensus](https://walker-data.com/tidycensus/) R package (requires a Census API key).
@@ -84,7 +74,15 @@ Skip to: [Time use](#time-use), [Names](#names), [Crime](#crime), [Family](#fami
 - [National Longitudinal Study of Youth (NLSY79 and NLSY97)](https://www.bls.gov/nls/cohorts.htm) - detailed, long-running panel surveys
   - NLSY79 follows people born 1957-64, with the first interview in 1979
   - NLSY97 follows people born 1980-84, with the first interview in 1997
+- [IPUMS International](https://international.ipums.org/international/) - 100+ countries, 650+ surveys, 1B+ records
+  - Massive, standardized compilation of censuses and surveys
   
+---
+
+### Mobility and Migration
+
+
+
 ---
 
 ### Names
@@ -190,6 +188,57 @@ Skip to: [Time use](#time-use), [Names](#names), [Crime](#crime), [Family](#fami
 
 ---
 
+### Inflation and cost of Living
+
+- [CPI-U](https://fred.stlouisfed.org/series/CPIAUCNS#) - you can use this to adjust for inflation
+  - To use, click on "Edit Graph" and adjust the frequency to "Annual" with "Average aggregation" method. 
+- [Cost of living](https://www.commerce.gov/news/blog/2024/03/estimating-county-level-regional-price-parities-public-data) - County-level cost of living estimates
+
+---
+
+### Working
+
+- CPS, ACS, PSID - see above
+- [O*NET](https://www.onetcenter.org/database.html) - Data on occupational tasks
+- [Chicago Business Registrations](https://data.cityofchicago.org/Community-Economic-Development/Business-Licenses-Current-Active/uupf-x98q/about_data) - geocoded business licenses with business name, date of expiration, etc.
+- [Anthropic Economic Index](https://huggingface.co/datasets/Anthropic/EconomicIndex) - Actual AI exposure by job and by geography
+- [AI Job Exposure Index](https://github.com/openai/GPTs-are-GPTs) - [from Eloundout et. al](https://www.science.org/doi/10.1126/science.adj0998). Predicted exposure
+
+---
+
+### Religion
+
+- [2020 US Religion Census](https://www.usreligioncensus.org/node/1639) - Estimates of the number of adherents by faith at the county and state level
+- [Pew's Religious Landscape Study (RLS)](https://www.icpsr.umich.edu/sites/icpsr/view/studies/221062/versions/V1) - large survey about religion
+- [LDS Hymn Stats](https://hymnstats.joeystanley.com/overview.html) - the hymns sung at over 100,000 (non-representative) Latter-day Saint Sacrament Meetings
+  - The microdata is not available, but counts by hymn are, overall and separately by before and since June 2024
+- [The ARDA](https://thearda.com/data-archive/browse-categories) - compiles many datasets on religion
+
+---
+
+### Academia
+
+- [Openalex](https://openalex.org/) - over half a billion academic papers
+  - Free to download the full data, but it is really big! Limited number of free API pulls per day
+- [Metadata on NBER articles](https://www.nber.org/research/data/nber-working-papers-and-chapters-metadata) 
+  - Includes information like authors, affiliations, and abstracts
+- [Economics PhD Placements](https://www.econphdplacements.com/) - placements of 18k+ economics PhDs from from 82 programs over 1990-2026
+- [Economics Graduates North-America 1997-2017 with RePEc handles and Scopus IDs](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/ADSCLU)
+- [Gender composition by academic field](https://edmond.mpg.de/dataset.xhtml?persistentId=doi:10.17617/3.BHU4FY)
+  - Since 1950, based on estimated name from publications
+  
+---
+
+### Government
+- [Quarterly Census of Employment and Wages (QCEW)](https://www.bls.gov/cew/downloadable-data-files.htm) - county-level data on employment and wages
+- [County Business Patterns](https://www.census.gov/programs-surveys/cbp/data.html) - county-level data on employment and payroll 
+- [LocalView](https://www.localview.net/) - transcripts of local government meetings that were uploaded to YoutTube
+- [Voteview](https://voteview.com/) - how everyone in Congress has voted throughout all of US history as well as an ideology score for everyone
+- [Visits by Foreign Leaders and Heads of State](https://github.com/HistoryAtState/visits) - Every visit of a foreign head of state to the US President (or VP if President was indisposed/abroad) from 1874-2020
+- [CongressInData](https://www.congressindata.com/) - For Congress members between 2005-2015, it provides information on social networks, voting, etc.
+
+---
+
 ### Health
 
 - [National Health and Nutrition Examination Survey (NHANES)](https://www.cdc.gov/nchs/nhanes/index.html) - National survey for adults and children with various health-related questions
@@ -202,33 +251,93 @@ Skip to: [Time use](#time-use), [Names](#names), [Crime](#crime), [Family](#fami
   - Years: 2018-present. Has address and price paid.
 - [Larson and Contat (2022)](https://www.fhfa.gov/PolicyProgramsResearch/Research/Pages/wp2101.aspx) - Tract-level home price indices
   - Years: 1989-2021
+ 
+---
+
+### Media and text
+
+Dataset with about 400 million semantic pairs, which are from newspapers - one is based on the other one [Link ](https://huggingface.co/datasets/dell-research-harvard/headlines-semantic-similarity)
+
+https://arxiv.org/abs/2406.09490
+
+https://x.com/MelissaLDell/status/1806760404389179483 Newswire 
+
+Stanford’s Cable TV News Analyzer https://tvnews.stanford.edu/data 
+
+Transcripts of 2 million YouTube videos (billions of words) https://huggingface.co/datasets/PleIAs/YouTube-Commons 
 
 ---
 
-### Inflation data
+### Patents
 
-- [CPI-U](https://fred.stlouisfed.org/series/CPIAUCNS#) - you can use this to adjust for inflation
-  - To use, click on "Edit Graph" and adjust the frequency to "Annual" with "Average aggregation" method. 
-
----
-
-### Labor and working
-
-- CPS, ACS, PSID - see above
-- [O*NET](https://www.onetcenter.org/database.html) - Data on occupational tasks
-- [Anthropic Economic Index](https://huggingface.co/datasets/Anthropic/EconomicIndex?st_source=ai_overview) - AI exposure by job and by geography
+- Worldwide patent data(https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/OTTBDX) - Geocoded, 1980-2014, 46 countries
+  - From [Geocoding of Worldwide Patent Data](https://www.nature.com/articles/s41597-019-0264-6)
+- [US patent data](https://data.uspto.gov/home)
 
 ---
 
-### Religion
+### Social networks
 
-- [2020 US Religion Census](https://www.usreligioncensus.org/node/1639) - Estimates of the number of adherents by faith at the county and state level
-- [Pew's Religious Landscape Study (RLS)](https://www.icpsr.umich.edu/sites/icpsr/view/studies/221062/versions/V1) - large survey about religion
-- [LDS Hymn Stats](https://hymnstats.joeystanley.com/overview.html) - the hymns sung at over 100,000 (non-representative) Latter-day Saint Sacrament Meetings
-  - The microdata is not available, but counts by hymn are, overall and separately by before and since June 2024
-
-
+- [Facebook Social Connectedness Index (SCI)](https://ai.meta.com/ai-for-good/datasets/social-connectedness-index/) - county-to-county connectedness
+  - Based on Facebook friendships. Also country-to-country and other subnational links.
 
 ---
 
-  Disclaimer: This site may contain errors and in no way do we guarantee the accuracy of the referenced data. In no event will we be liable for any loss or damage.
+### Politics and voting
+MIT elections
+uw guy - fine grained 
+nyt one too?
+
+---
+
+### Beliefs and values
+[World Values Survey](https://www.worldvaluessurvey.org/WVSContents.jsp) - Worldwide survey on beliefs and values
+
+---
+
+### Law
+
+- [A list of all federal laws](https://osf.io/qa289) 
+ - From [A comprehensive dataset of U.S. federal laws (1789–2022)](https://www.nature.com/articles/s41597-023-02758-z)
+- [LawAtlas](https://lawatlas.org/) - Coded laws from Temple University's Public Health Law Review 
+
+---
+
+### Environment and energy
+
+- [ERCOT](ercot.com/gridinfo/load/load_hist/index.html) - hourly electricity load data in Texas
+  - 1995-present. ERCOT is the largest provider in the state
+
+---
+
+### Shopping
+
+- [1.8 million Amazon purchases from 5000 people](https://github.com/aberke/amazon-study/tree/master/data)
+  - From [Open e-commerce 1.0, five years of crowdsourced U.S. Amazon purchase histories with user demographics](https://www.nature.com/articles/s41597-024-03329-6)
+
+---
+
+### Maps and geography
+USGS maps
+Elevation - elevatr
+Rivers
+Lidar 
+
+---
+
+Disclaimer: This site may contain errors and in no way do we guarantee the accuracy of the referenced data. In no event will we be liable for any loss or damage.
+
+<!-- 
+<details>
+<summary>Details</summary>
+
+- Test A
+- Test B
+
+</details> 
+
+### Music
+
+-->
+
+
