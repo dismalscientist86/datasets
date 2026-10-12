@@ -80,7 +80,11 @@ Skip to: [Time use](#time-use), [Names](#names), [Crime](#crime), [Family](#fami
   - Years: 1962-present. This version is via IPUMS.
   - A person participates every month for four months, takes eight months off, then does four more months.
   - A subset of the CPS participates in the ATUS (see above).
-
+- [Panel Study of Income Dynamics (PSID)](https://psidonline.isr.umich.edu/) - long-running panel household survey
+- [National Longitudinal Study of Youth (NLSY79 and NLSY97)](https://www.bls.gov/nls/cohorts.htm) - detailed, long-running panel surveys
+  - NLSY79 follows people born 1957-64, with the first interview in 1979
+  - NLSY97 follows people born 1980-84, with the first interview in 1997
+  
 ---
 
 ### Names
@@ -210,11 +214,20 @@ Skip to: [Time use](#time-use), [Names](#names), [Crime](#crime), [Family](#fami
 
 ### Labor and working
 
-- [ACS](https://www.census.gov/dataviz/visualizations/stem/stem-html/) - You can get the major and industry of people in the ACS, so you can therefore know the percentages of an industry with the different majors
-- CPS
-- NLSY
-- PSID
-- O*NET - Occupational tasks 
+- CPS, ACS, PSID - see above
+- [O*NET](https://www.onetcenter.org/database.html) - Data on occupational tasks
+- [Anthropic Economic Index](https://huggingface.co/datasets/Anthropic/EconomicIndex?st_source=ai_overview) - AI exposure by job and by geography
+
+---
+
+### Religion
+
+- [2020 US Religion Census](https://www.usreligioncensus.org/node/1639) - Estimates of the number of adherents by faith at the county and state level
+- [Pew's Religious Landscape Study (RLS)](https://www.icpsr.umich.edu/sites/icpsr/view/studies/221062/versions/V1) - large survey about religion
+- [LDS Hymn Stats](https://hymnstats.joeystanley.com/overview.html) - the hymns sung at over 100,000 (non-representative) Latter-day Saint Sacrament Meetings
+  - The microdata is not available, but counts by hymn are, overall and separately by before and since June 2024
+
+
 
 ---
 
