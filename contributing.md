@@ -8,12 +8,12 @@ Data that is:
 
 ### Ways to contribute
 
-You can:
-- Open an [issue](https://github.com/toddrjones/datasets/issues/new) with your suggestion
-- Edit the list yourself with a propose changed
-- Email me
+You can suggest a new dataset or point out an error, broken link, etc. by:
+- Opening an [issue](https://github.com/toddrjones/datasets/issues/new) with your suggestion
+- Editing the list yourself with a propose changed
+- Emailing me
 
-I will review and decide if I want to include it, but no guarantees
+I will review and decide if I want to include the change, but no guarantees.
 
 ### Sample entry
 
