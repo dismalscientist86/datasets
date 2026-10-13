@@ -1,5 +1,5 @@
 # Datasets
-This is a complication of datasets that I hope can be useful to students, professors, and others for research, data visualization, etc. I am an applied microeconomist, and this is reflected in what is included below. All or at least the vast majority of the datasets are free. But while most are publicly available, some aren't and require data agreements. If you have any changes, additions, or comments, please let me know.
+This is a complication of datasets that I hope can be useful to students, professors, and others for research, data visualization, etc. I am an applied microeconomist, and this is reflected in what is included below. Most of the datasets are publicly available, but some aren't and require data agreements. All or at least the vast majority of them are free. If you have any changes, additions, or comments, please let me know.
  \- [Todd Jones](https://www.toddrjones.com/)
 
 ### Contents
@@ -35,6 +35,8 @@ Skip to: [Time use](#time-use), [Names](#names), [Crime](#crime), [Family](#fami
   - [Chicago](https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2/about_data)
   - [Los Angeles](https://data.lacity.org/Public-Safety/Crime-Data-from-2020-to-2024/2nrs-mtv8/about_data)
   - [Seattle](https://data.seattle.gov/Public-Safety/SPD-Crime-Data-2008-Present/tazs-3rd5/about_data)
+  - See also [this site](https://osf.io/zyaqn/wiki?wiki=t69q3), [this site](https://www.policedatainitiative.org/datasets/), and [this older site](http://us-city.census.okfn.org/dataset/crime-stats.html) each of which detail availability for many cities
+  - And [OpenPoliceData](https://github.com/openpolicedata/openpolicedata), which compiles data from many sources
 - 911 calls - many cities have data on 911 calls. A small number of examples:
   - [New York](https://data.cityofnewyork.us/Public-Safety/NYPD-Calls-for-Service-Year-to-Date-/n2zq-pubd/about_data)
   - [Los Angeles](https://data.lacity.org/Public-Safety/LAPD-Calls-for-Service-2024-to-Present/xjgu-z4ju/about_data)
@@ -81,7 +83,10 @@ Skip to: [Time use](#time-use), [Names](#names), [Crime](#crime), [Family](#fami
 
 ### Mobility and Migration
 
-
+- [MIGRATE](https://www.nature.com/articles/s41467-025-68019-2) - yearly migration patterns between US Census Blocks
+  - From [Inferring fine-grained migration patterns across the United States](https://www.nature.com/articles/s41467-025-68019-2)
+- Opportunity Atlas
+- Migration Patterns
 
 ---
 
@@ -121,6 +126,7 @@ Skip to: [Time use](#time-use), [Names](#names), [Crime](#crime), [Family](#fami
 - State-level crash data - some states (and cities) have individual-level, geocoded car crash data. A small number of examples:
   - [California](https://data.ca.gov/@california-highway-patrol/ccrs)
   - [Massachusetts](https://massdot-impact-crashes-vhb.opendata.arcgis.com/) and then search for "Crashes"
+  - See also [this site](https://www.arcgis.com/home/item.html?id=3ef625ffe7ce4ef38be81ee6d80a5385#overview) and [this other site](https://sspf.tooledesign.com/crash_data_sources), which both detail data availability for each state. 
 - [UTD19](https://utd19.ethz.ch/) - Traffic data from 20k+ stations across 40 cities
   - Years: 2017-2019. Access: public. 
 
@@ -180,11 +186,15 @@ Skip to: [Time use](#time-use), [Names](#names), [Crime](#crime), [Family](#fami
   - Pitch-level data from Baseball Savant's [Statcast](https://baseballsavant.mlb.com/statcast_search). You can get the location of the pitch, the distance a batted ball was estimated to travel, etc.
   - [Cot's salary data](https://legacy.baseballprospectus.com/compensation/cots/)
   - [Lahman Baseball Database](https://sabr.org/lahman-database/) - Season-level player statistics, 1871-present
+  - [10,000 baseball scouting reports](https://github.com/jacobdanovitch/Trouble-With-The-Curve)
+     - From [Trouble with the Curve: Predicting Future MLB Players Using Scouting Reports](https://arxiv.org/abs/1910.12622)
 - NBA
   - [Box score data](https://www.kaggle.com/datasets/eoinamoore/historical-nba-data-and-player-box-scores), 1947-present, from Kaggle
   - [Play-by-play data](https://www.kaggle.com/datasets/szymonjwiak/nba-play-by-play-data-1997-2023), 1997-present, from Kaggle
 - NFL
   - [nflverse](https://github.com/nflverse) - R package that you can use to get lots of data, including play-by-play
+- Marathons
+   - [Marathon times](https://www.kaggle.com/runningwithrock/datasets)
 
 ---
 
@@ -201,8 +211,9 @@ Skip to: [Time use](#time-use), [Names](#names), [Crime](#crime), [Family](#fami
 - CPS, ACS, PSID - see above
 - [O*NET](https://www.onetcenter.org/database.html) - Data on occupational tasks
 - [Chicago Business Registrations](https://data.cityofchicago.org/Community-Economic-Development/Business-Licenses-Current-Active/uupf-x98q/about_data) - geocoded business licenses with business name, date of expiration, etc.
-- [Anthropic Economic Index](https://huggingface.co/datasets/Anthropic/EconomicIndex) - Actual AI exposure by job and by geography
-- [AI Job Exposure Index](https://github.com/openai/GPTs-are-GPTs) - [from Eloundout et. al](https://www.science.org/doi/10.1126/science.adj0998). Predicted exposure
+
+<!-- - [Anthropic Economic Index](https://huggingface.co/datasets/Anthropic/EconomicIndex) - Actual AI exposure by job and by geography
+- [AI Job Exposure Index](https://github.com/openai/GPTs-are-GPTs) - [from Eloundout et. al](https://www.science.org/doi/10.1126/science.adj0998). Predicted exposure -->
 
 ---
 
@@ -249,28 +260,15 @@ Skip to: [Time use](#time-use), [Names](#names), [Crime](#crime), [Family](#fami
 
 - [Prices paid dataset](https://www.gov.uk/government/statistical-data-sets/price-paid-data-downloads) - All residential property sales in England and Wales (that are sold for value and registered)
   - Years: 2018-present. Has address and price paid.
-- [Larson and Contat (2022)](https://www.fhfa.gov/PolicyProgramsResearch/Research/Pages/wp2101.aspx) - Tract-level home price indices
+- [Tract-level home price indices](https://www.fhfa.gov/PolicyProgramsResearch/Research/Pages/wp2101.aspx)
   - Years: 1989-2021
+  - From [Larson and Contat (2022)](A Flexible Method of House Price Index Construction using Repeat-Sales Aggregates)
  
----
-
-### Media and text
-
-Dataset with about 400 million semantic pairs, which are from newspapers - one is based on the other one [Link ](https://huggingface.co/datasets/dell-research-harvard/headlines-semantic-similarity)
-
-https://arxiv.org/abs/2406.09490
-
-https://x.com/MelissaLDell/status/1806760404389179483 Newswire 
-
-Stanford’s Cable TV News Analyzer https://tvnews.stanford.edu/data 
-
-Transcripts of 2 million YouTube videos (billions of words) https://huggingface.co/datasets/PleIAs/YouTube-Commons 
-
 ---
 
 ### Patents
 
-- Worldwide patent data(https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/OTTBDX) - Geocoded, 1980-2014, 46 countries
+- [Worldwide patent data](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/OTTBDX) - Geocoded, 1980-2014, 46 countries
   - From [Geocoding of Worldwide Patent Data](https://www.nature.com/articles/s41597-019-0264-6)
 - [US patent data](https://data.uspto.gov/home)
 
@@ -287,6 +285,7 @@ Transcripts of 2 million YouTube videos (billions of words) https://huggingface.
 MIT elections
 uw guy - fine grained 
 nyt one too?
+https://www.ncsbe.gov/results-data/voter-registration-data
 
 ---
 
@@ -337,6 +336,12 @@ Disclaimer: This site may contain errors and in no way do we guarantee the accur
 </details> 
 
 ### Music
+
+### Media and Text
+Dataset with about 400 million semantic pairs from newspapers [Link ](https://huggingface.co/datasets/dell-research-harvard/headlines-semantic-similarity) 
+Stanford’s Cable TV News Analyzer https://tvnews.stanford.edu/data
+https://x.com/MelissaLDell/status/1806760404389179483 https://arxiv.org/abs/2406.09490 Newswire 
+[Transcripts of 2 million YouTube videos (billions of words)](https://huggingface.co/datasets/PleIAs/YouTube-Commons)
 
 -->
 
