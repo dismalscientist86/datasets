@@ -1,10 +1,12 @@
 # Datasets
-This is a complication of datasets that I hope can be useful to students, professors, and others for research, data visualization, etc. I am an applied microeconomist, and this is reflected in what is included below. Most of the datasets are publicly available, but some aren't and require data agreements. All or at least the vast majority of them are free. If you have any changes, additions, or comments, please let me know.
+This is a complication of datasets that I hope can be useful to students, professors, and others for research, data visualization, etc. I am an applied microeconomist, and this is reflected in what is included below. Most of the datasets are publicly available, but some aren't and require data agreements. All or at least the vast majority of them are free. If you have any changes, additions, or comments, please let me know. And feel free to contribute!
  \- [Todd Jones](https://www.toddrjones.com/)
+
+--- 
 
 ### Contents
 
-Skip to: [Time use](#time-use), [Names](#names), [Crime](#crime), [Family](#family), [Injury and death](#injury-and-death), [Crashes and traffic](#crashes-and-traffic), [Sports](#sports), [Education](#education), [Inflation data](#inflation-data), [Health](#health), [Temperature](#temperature), [Census and Genealogy](#census-and-genealogy), [Real estate](#real-estate), [Labor and working](#labor-and-working)
+Skip to: [Time Use](#time-use), [Crime](#crime), [US Censuses and Economic History](#us-censuses-and-economic-history), [Household Surveys](#household-surveys), [Mobility and Migration](#mobility-and-migration), [Names](#names), [Injury and death](#injury-and-death), [Crashes and traffic](#crashes-and-traffic), [Education](#education), [Academia](#academia), [Temperature](#temperature), [Family](#family), [Sports](#sports), [Religion](#religion), [Government](#government), [Inflation and cost of Living](#inflation-and-cost-of-living), [Working](#working), [Politics and voting](#politics-and-voting), [Health](#health), [Real estate](#real-estate), [Patents](#patents), [Social networks](#social-networks), [Beliefs and values](#beliefs-and-values), [Law](#law), [Environment and energy](#environment-and-energy), [Shopping](#shopping), [Maps and geography](#maps-and-geography)
 
 ---
 
