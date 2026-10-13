@@ -45,6 +45,7 @@ Skip to: [Time Use](#time-use), [Crime](#crime), [US Censuses and Economic Histo
   - [Los Angeles](https://data.lacity.org/Public-Safety/LAPD-Calls-for-Service-2024-to-Present/xjgu-z4ju/about_data)
   - [Seattle](https://www.seattle.gov/police/information-and-data/data/public-data-sets)
 - [Stanford Open Policing Project](https://openpolicing.stanford.edu/) - Data on millions of police traffic stops across locations
+- [Justice Outcomes Explorer](https://www.census.gov/data/experimental-data-products/justice-outcomes-explorer.html) - Collaboration between University of Michigan's [Criminal Justices Administrative Records System](https://cjars.org/) and the U.S. Census Bureau. Years covered: 2000-2020 (varies by jurisdiction). Criminal justice involvement includes criminal charges, prison releases, and probation and parole sentences. Outcomes: employment, earnings, government program participation, and mortality.
 
 ---
 
@@ -81,6 +82,7 @@ Skip to: [Time Use](#time-use), [Crime](#crime), [US Censuses and Economic Histo
   - NLSY97 follows people born 1980-84, with the first interview in 1997
 - [IPUMS International](https://international.ipums.org/international/) - 100+ countries, 650+ surveys, 1B+ records
   - Massive, standardized compilation of censuses and surveys
+ - [Household Pulse Survey/Household Trends and Outlook Pulse Survey](https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.html) Collected starting April 23, 2020 to measure timely issues affecting U.S. households. Household Pulse Survey ended on September 16, 2024 and was relaunched as Household Trends and Outlook Survey in early October 2024. 
   
 ---
 
@@ -153,6 +155,7 @@ Skip to: [Time Use](#time-use), [Crime](#crime), [US Censuses and Economic Histo
 - [Median earnings four years after graduation by university-major](https://www.theheagroup.com/blog/earnings-test-data)
   - Graduates from 2017-18 and 2018-19. Access: public. A university-major is only included if there are at least 16 graduates.
   - From the Department of Education; this version is made available by the HEA Group.
+ - [Post-Secondary Employment Outcomes (PSEO)](https://lehd.ces.census.gov/data/pseo_experimental.html) Earnings and employment outcomes for college and university graduates by degree level, degree major, post-secondary institution, and state of institution. 
 
 <!-- [University enrollments](https://borealisdata.ca/dataset.xhtml?persistentId=doi:10.5683/SP3/P0D1KE&version=1.0) -->
 
@@ -229,8 +232,6 @@ Skip to: [Time Use](#time-use), [Crime](#crime), [US Censuses and Economic Histo
 ---
 
 ### Government
-- [Quarterly Census of Employment and Wages (QCEW)](https://www.bls.gov/cew/downloadable-data-files.htm) - county-level data on employment and wages
-- [County Business Patterns](https://www.census.gov/programs-surveys/cbp/data.html) - county-level data on employment and payroll 
 - [LocalView](https://www.localview.net/) - transcripts of local government meetings that were uploaded to YoutTube
 - [Voteview](https://voteview.com/) - how everyone in Congress has voted throughout all of US history as well as an ideology score for everyone
 - [Visits by Foreign Leaders and Heads of State](https://github.com/HistoryAtState/visits) - Every visit of a foreign head of state to the US President (or VP if President was indisposed/abroad) from 1874-2020
@@ -250,10 +251,23 @@ Skip to: [Time Use](#time-use), [Crime](#crime), [US Censuses and Economic Histo
 
 - CPS, ACS, PSID - see above
 - [O*NET](https://www.onetcenter.org/database.html) - Data on occupational tasks
-- [Chicago Business Registrations](https://data.cityofchicago.org/Community-Economic-Development/Business-Licenses-Current-Active/uupf-x98q/about_data) - geocoded business licenses with business name, date of expiration, etc.
+- [Quarterly Census of Employment and Wages (QCEW)](https://www.bls.gov/cew/downloadable-data-files.htm) - county-level data on employment and wages
+- [Quarterly Workforce Indicators (QWI)](https://lehd.ces.census.gov/data/qwi_national.html) - employment, jobs creation, earnings and other measures of employment flows by detailed firm characteristics and worker demographics. Downloadable via [Census API](https://www.census.gov/data/developers/data-sets/qwi.html)
+- [Job to Job Flows (J2J)](https://lehd.ces.census.gov/data/j2j_subsector_research.html) - statistics on job mobility in the United States, including the job-to-job transition rate, hires and separation rates, earnings changes due to job change, and characteristics of the origin and destination job.
+- [LEHD Origin-Destination Employment Statistics (LODES)](https://lehd.ces.census.gov/data/) - source data for the Census [OnTheMap](https://onthemap.ces.census.gov/) data tool, providing statistics at the Census block level at both residential and workplace locations and flows between the two (origin-destination).
+- [Veteran Employment Outcomes (VEO)](https://lehd.ces.census.gov/data/veo_experimental.html) - labor market outcomes for discharged veterans from five branches of the military - Air Force, Army, Coast Guard, Marine Corps, and Navy. Tabulated by military specialization, service characteristics, employer industry, and veteran demographics.
+- [Mobility, Opportunity, and Volatility Statistics (MOVS)](https://www.census.gov/programs-surveys/ces/data/public-use-data/mobility-opportunity-volatility-statistics.html) a dataset that tracts the income changes of a 2005 cohort of U.S. adults from 2005 to 2019 by initial income decile, sex, and race/ethnicity. 
 
 <!-- - [Anthropic Economic Index](https://huggingface.co/datasets/Anthropic/EconomicIndex) - Actual AI exposure by job and by geography
 - [AI Job Exposure Index](https://github.com/openai/GPTs-are-GPTs) - [from Eloundout et. al](https://www.science.org/doi/10.1126/science.adj0998). Predicted exposure -->
+
+---
+### Businesses
+- [County Business Patterns](https://www.census.gov/programs-surveys/cbp/data.html) - county-level data on employment and payroll
+- [Chicago Business Registrations](https://data.cityofchicago.org/Community-Economic-Development/Business-Licenses-Current-Active/uupf-x98q/about_data) - geocoded business licenses with business name, date of expiration, etc.
+- [Business Dynamic Statistics](https://www.census.gov/programs-surveys/bds.html) - Annual measures of business dynamics - job creation and destruction, establishment births and deaths, firm startups and shutdowns by establishment and firm characteristics. Also available for specific types of firms/measures: [Patenting Firms](https://www.census.gov/data/experimental-data-products/bds-patenting-firms.html), [High Growth Firms](https://www.census.gov/data/experimental-data-products/bds-high-growth.html), [Goods Traders](https://www.census.gov/data/experimental-data-products/bds-goods-traders.html), [High Tech Industries](https://www.census.gov/data/experimental-data-products/bds-high-tech.html), [Single-Unit Firms with Revenue](https://www.census.gov/data/experimental-data-products/bds-single-unit.html), [Human Capital](https://www.census.gov/data/experimental-data-products/bds-human-capital.html), [Coastal Counties](https://www.census.gov/data/experimental-data-products/bds-coastal-counties.html).
+- [Dispersion Statistics on Productivity (DiSP)](https://www.census.gov/data/experimental-data-products/dispersion-statistics-on-productivity.html) - within-industry measures of productivity dispersion. Covers every five years from 1987-2017 by 4-digit NAICS for manufacturing and retail sectors.
+- [Business Trends and Outlook Survey (BTOS)](https://www.census.gov/data/experimental-data-products/business-trends-and-outlook-survey.html) high-frequency, nationally representative data on U.S. employer businesses. Collected starting September 11, 2023. Data released every 2 weeks by NACIS sector, state, and 25 most populous MSAs.
 
 ---
 
@@ -297,7 +311,7 @@ Skip to: [Time Use](#time-use), [Crime](#crime), [US Censuses and Economic Histo
 ---
 
 ### Beliefs and values
-[World Values Survey](https://www.worldvaluessurvey.org/WVSContents.jsp) - Worldwide survey on beliefs and values
+- [World Values Survey](https://www.worldvaluessurvey.org/WVSContents.jsp) - Worldwide survey on beliefs and values
 
 ---
 
@@ -313,6 +327,7 @@ Skip to: [Time Use](#time-use), [Crime](#crime), [US Censuses and Economic Histo
 
 - [ERCOT](ercot.com/gridinfo/load/load_hist/index.html) - hourly electricity load data in Texas
   - 1995-present. ERCOT is the largest provider in the state
+- [Gridded Environmental Impacts Frame (Gridded EIF)](https://www.census.gov/data/experimental-data-products/gridded-eif.html) - detailed demographic counts by age, sex, race and ethnicity and data for environmental hazards on a 0.01 degree grid of the United States. 
 
 ---
 
