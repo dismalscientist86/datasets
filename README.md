@@ -85,8 +85,10 @@ Skip to: [Time use](#time-use), [Names](#names), [Crime](#crime), [Family](#fami
 
 - [MIGRATE](https://www.nature.com/articles/s41467-025-68019-2) - yearly migration patterns between US Census Blocks
   - From [Inferring fine-grained migration patterns across the United States](https://www.nature.com/articles/s41467-025-68019-2)
-- Opportunity Atlas
-- Migration Patterns
+- [Opportunity Atlas](https://www.opportunityatlas.org/) - many adult outcomes of children at very fine-grained geographies
+   - From [The Opportunity Atlas: Mapping the Childhood Roots of Social Mobility](https://opportunityinsights.org/wp-content/uploads/2018/10/atlas_paper.pdf) and [Changing Opportunity: Sociological Mechanisms Underlying Growing Class Gaps and Shrinking Race Gaps in Economic Mobility](https://opportunityinsights.org/wp-content/uploads/2024/07/ChangingOpportunity_Paper.pdf)
+- [Migration Patterns](https://migrationpatterns.org/) - Counts of children commuting zone to adult commuting zone migration patterns, split by race and parental income
+   - From [The Radius of Economic Opportunity: Evidence from Migration and Local Labor Markets](https://www2.census.gov/ces/wp/2022/CES-WP-22-27.pdf)
 
 ---
 
@@ -153,6 +155,31 @@ Skip to: [Time use](#time-use), [Names](#names), [Crime](#crime), [Family](#fami
 
 ---
 
+### Academia
+
+- [Openalex](https://openalex.org/) - over half a billion academic papers
+  - Free to download the full data, but it is really big! Limited number of free API pulls per day
+- [Metadata on NBER articles](https://www.nber.org/research/data/nber-working-papers-and-chapters-metadata) 
+  - Includes information like authors, affiliations, and abstracts
+- [Economics PhD Placements](https://www.econphdplacements.com/) - placements of 18k+ economics PhDs from from 82 programs over 1990-2026
+- [Economics Graduates North-America 1997-2017 with RePEc handles and Scopus IDs](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/ADSCLU)
+- [Gender composition by academic field](https://edmond.mpg.de/dataset.xhtml?persistentId=doi:10.17617/3.BHU4FY)
+  - Since 1950, based on estimated name from publications
+- [PhD origins of academic faculty](https://larremorelab.github.io/us-faculty/) - where hundreds of thousands of professors got their PhDs, by university and field
+   - From [Quantifying hierarchy and dynamics in US faculty hiring and retention](https://www.nature.com/articles/s41586-022-05222-x)
+  
+--- 
+
+### Temperature
+
+- [PRISM](https://prism.oregonstate.edu/) - Gridded weather data, including temperature and precipitation
+  - Years: 1981-present (daily), 1895-present (monthly)
+- [NOAA](https://www.ncdc.noaa.gov/cdo-web/datatools/findstation) - Weather station data
+- [Open-Meteo](https://open-meteo.com/) - weather API
+  - Some of data goes back to 1940. Forecast data from 2021. Free version of API is rate limited (300k/month)
+
+---
+
 ### Family
 *Births, Marriages, and Divorces*
 
@@ -167,16 +194,6 @@ Skip to: [Time use](#time-use), [Names](#names), [Crime](#crime), [Family](#fami
    - Both files have names and dates. The divorce file has number of children and date of marriage.
 - [Marriages in England and Wales](https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/marriagecohabitationandcivilpartnerships/datasets/marriagesinenglandandwales2013) - Counts of marriages by day
   - Years: 1999-present for the data with day of marriage. 
-
---- 
-
-### Temperature
-
-- [PRISM](https://prism.oregonstate.edu/) - Gridded weather data, including temperature and precipitation
-  - Years: 1981-present (daily), 1895-present (monthly)
-- [NOAA](https://www.ncdc.noaa.gov/cdo-web/datatools/findstation) - Weather station data
-- [Open-Meteo](https://open-meteo.com/) - weather API
-  - Some of data goes back to 1940. Forecast data from 2021. Free version of API is rate limited (300k/month)
 
 ---
  
@@ -195,6 +212,26 @@ Skip to: [Time use](#time-use), [Names](#names), [Crime](#crime), [Family](#fami
   - [nflverse](https://github.com/nflverse) - R package that you can use to get lots of data, including play-by-play
 - Marathons
    - [Marathon times](https://www.kaggle.com/runningwithrock/datasets)
+
+---
+
+### Religion
+
+- [2020 US Religion Census](https://www.usreligioncensus.org/node/1639) - Estimates of the number of adherents by faith at the county and state level
+- [Pew's Religious Landscape Study (RLS)](https://www.icpsr.umich.edu/sites/icpsr/view/studies/221062/versions/V1) - large survey about religion
+- [LDS Hymn Stats](https://hymnstats.joeystanley.com/overview.html) - the hymns sung at over 100,000 (non-representative) Latter-day Saint Sacrament Meetings
+  - The microdata is not available, but counts by hymn are, overall and separately by before and since June 2024
+- [The ARDA](https://thearda.com/data-archive/browse-categories) - compiles many datasets on religion
+  
+---
+
+### Government
+- [Quarterly Census of Employment and Wages (QCEW)](https://www.bls.gov/cew/downloadable-data-files.htm) - county-level data on employment and wages
+- [County Business Patterns](https://www.census.gov/programs-surveys/cbp/data.html) - county-level data on employment and payroll 
+- [LocalView](https://www.localview.net/) - transcripts of local government meetings that were uploaded to YoutTube
+- [Voteview](https://voteview.com/) - how everyone in Congress has voted throughout all of US history as well as an ideology score for everyone
+- [Visits by Foreign Leaders and Heads of State](https://github.com/HistoryAtState/visits) - Every visit of a foreign head of state to the US President (or VP if President was indisposed/abroad) from 1874-2020
+- [CongressInData](https://www.congressindata.com/) - For Congress members between 2005-2015, it provides information on social networks, voting, etc.
 
 ---
 
@@ -217,36 +254,11 @@ Skip to: [Time use](#time-use), [Names](#names), [Crime](#crime), [Family](#fami
 
 ---
 
-### Religion
-
-- [2020 US Religion Census](https://www.usreligioncensus.org/node/1639) - Estimates of the number of adherents by faith at the county and state level
-- [Pew's Religious Landscape Study (RLS)](https://www.icpsr.umich.edu/sites/icpsr/view/studies/221062/versions/V1) - large survey about religion
-- [LDS Hymn Stats](https://hymnstats.joeystanley.com/overview.html) - the hymns sung at over 100,000 (non-representative) Latter-day Saint Sacrament Meetings
-  - The microdata is not available, but counts by hymn are, overall and separately by before and since June 2024
-- [The ARDA](https://thearda.com/data-archive/browse-categories) - compiles many datasets on religion
-
----
-
-### Academia
-
-- [Openalex](https://openalex.org/) - over half a billion academic papers
-  - Free to download the full data, but it is really big! Limited number of free API pulls per day
-- [Metadata on NBER articles](https://www.nber.org/research/data/nber-working-papers-and-chapters-metadata) 
-  - Includes information like authors, affiliations, and abstracts
-- [Economics PhD Placements](https://www.econphdplacements.com/) - placements of 18k+ economics PhDs from from 82 programs over 1990-2026
-- [Economics Graduates North-America 1997-2017 with RePEc handles and Scopus IDs](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/ADSCLU)
-- [Gender composition by academic field](https://edmond.mpg.de/dataset.xhtml?persistentId=doi:10.17617/3.BHU4FY)
-  - Since 1950, based on estimated name from publications
-  
----
-
-### Government
-- [Quarterly Census of Employment and Wages (QCEW)](https://www.bls.gov/cew/downloadable-data-files.htm) - county-level data on employment and wages
-- [County Business Patterns](https://www.census.gov/programs-surveys/cbp/data.html) - county-level data on employment and payroll 
-- [LocalView](https://www.localview.net/) - transcripts of local government meetings that were uploaded to YoutTube
-- [Voteview](https://voteview.com/) - how everyone in Congress has voted throughout all of US history as well as an ideology score for everyone
-- [Visits by Foreign Leaders and Heads of State](https://github.com/HistoryAtState/visits) - Every visit of a foreign head of state to the US President (or VP if President was indisposed/abroad) from 1874-2020
-- [CongressInData](https://www.congressindata.com/) - For Congress members between 2005-2015, it provides information on social networks, voting, etc.
+### Politics and voting
+- [MIT Election Lab](https://electionlab.mit.edu/data) - Collection of various US election results
+- [NYT's Presidential precinct data for the 2024 U.S. general election](https://github.com/nytimes/presidential-precinct-map-2024)
+   - See also this [map](https://www.nytimes.com/interactive/2025/us/elections/2024-election-map-precinct-results.html)
+- [North Carolina voter registration data](https://www.ncsbe.gov/results-data/voter-registration-data)
 
 ---
 
@@ -281,14 +293,6 @@ Skip to: [Time use](#time-use), [Names](#names), [Crime](#crime), [Family](#fami
 
 ---
 
-### Politics and voting
-MIT elections
-uw guy - fine grained 
-nyt one too?
-https://www.ncsbe.gov/results-data/voter-registration-data
-
----
-
 ### Beliefs and values
 [World Values Survey](https://www.worldvaluessurvey.org/WVSContents.jsp) - Worldwide survey on beliefs and values
 
@@ -317,10 +321,13 @@ https://www.ncsbe.gov/results-data/voter-registration-data
 ---
 
 ### Maps and geography
-USGS maps
-Elevation - elevatr
-Rivers
-Lidar 
+- [Historical Topographic Maps](https://www.usgs.gov/programs/national-geospatial-program/historical-topographic-maps-preserving-past)
+  - Maps from 1884-2006
+- [Elevation data](https://cran.r-project.org/web/packages/elevatr/index.html) - R package to get elevation data from a variety of sources
+
+<!--Rivers
+Lidar
+-->
 
 ---
 
