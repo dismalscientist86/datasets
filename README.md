@@ -1,5 +1,6 @@
 # Datasets
-This is a complication of datasets that I hope can be useful to students, professors, and others for research, data visualization, etc. I am an applied microeconomist, and this is reflected in what is included below. Most of the datasets are publicly available, but some aren't and require data agreements. All or at least the vast majority of them are free. If you have any changes, additions, or comments, please let me know. And feel free to [contribute](https://github.com/toddrjones/datasets/blob/main/contributing.md)!
+This is a complication of free datasets that I hope can be useful to students, professors, and others for research, data visualization, etc. I am an [applied microeconomist](https://www.toddrjones.com/research/), and this is reflected in what is included below. Most of the datasets are publicly available, but some aren't and require data agreements. If you have any changes, additions, or comments, please [contribute](https://github.com/toddrjones/datasets/blob/main/contributing.md)!
+
  \- [Todd Jones](https://www.toddrjones.com/)
 
 --- 
